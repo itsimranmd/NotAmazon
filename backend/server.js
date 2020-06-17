@@ -7,7 +7,7 @@ import userRoute from './routes/userRoute';
 import productRoute from './routes/productRoute';
 import orderRoute from './routes/orderRoute';
 
-const mongodbUrl = config.MONGODB_URL;
+const mongodbUrl = config.MONGODB_URL || "mongodb+srv://testinguser:testinguser@rest-x74aa.mongodb.net/notamazon?retryWrites=true&w=majority";
 mongoose.connect(mongodbUrl, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
