@@ -1,5 +1,17 @@
 # NotAmazon
 
+You may use the below credentials to checkout the process and functionality.
+
+Tester
+-----
+Id: testinguser@imranmd.com
+Pass: testinguser123
+
+Admin
+-----
+Id: admin@imranmd.com
+Pass: admin123
+
 This is one of my first MERN stack project, It's a side project that I've been working on. I took this up from wireframing , prototyping to actual design, code and maintainability. It uses JWT for Authorization I've also integrated Paypal for payments.
 
 
